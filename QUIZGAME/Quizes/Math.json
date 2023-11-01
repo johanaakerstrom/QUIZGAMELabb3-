@@ -1,0 +1,115 @@
+﻿{
+  "Title": "Math Quiz",
+  "Questions": [
+    {
+      "Statement": "Vad är 2+2?",
+      "Answers": [
+        "2",
+        "22",
+        "4",
+        "1"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 5 * 9?",
+      "Answers": [
+        "35",
+        "42",
+        "45",
+        "59"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är kvadratroten ur 16?",
+      "Answers": [
+        "2",
+        "8",
+        "5",
+        "4"
+      ],
+      "CorrectAnswers": 3,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vilket tal kommer efter 7 i följd?",
+      "Answers": [
+        "6",
+        "8",
+        "9",
+        "7"
+      ],
+      "CorrectAnswers": 1,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 10 - 3?",
+      "Answers": [
+        "3",
+        "13",
+        "7",
+        "0"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 3/4 som decimaltal?",
+      "Answers": [
+        "0.25",
+        "0.50",
+        "0.75",
+        "0.20"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 12 delat med 4?",
+      "Answers": [
+        "4",
+        "6",
+        "8",
+        "3"
+      ],
+      "CorrectAnswers": 3,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 9 upphöjt till 2?",
+      "Answers": [
+        "81",
+        "18",
+        "72",
+        "27"
+      ],
+      "CorrectAnswers": 0,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 15 % av 60?",
+      "Answers": [
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "CorrectAnswers": 1,
+      "Category": "Math"
+    },
+    {
+      "Statement": "Vad är 7 + 8 * 2?",
+      "Answers": [
+        "23",
+        "24",
+        "30",
+        "27"
+      ],
+      "CorrectAnswers": 0,
+      "Category": "Math"
+    }
+  ]
+}

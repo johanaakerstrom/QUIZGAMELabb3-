@@ -1,0 +1,115 @@
+﻿{
+  "Title": "Geography Quiz",
+  "Questions": [
+    {
+      "Statement": "Vilket land är känt som 'Solens rike'?",
+      "Answers": [
+        "Spanien",
+        "Italien",
+        "Japan",
+        "Mexico"
+      ],
+      "CorrectAnswers": 3,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vad är huvudstaden i Frankrike?",
+      "Answers": [
+        "Madrid",
+        "Paris",
+        "Berlin",
+        "Toulouse"
+      ],
+      "CorrectAnswers": 1,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilket av följande länder är en ö-nation?",
+      "Answers": [
+        "Japan",
+        "Spanien",
+        "Australien",
+        "Sverige"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilket hav ligger öst om Afrika?",
+      "Answers": [
+        "Atlanten",
+        "Stilla Havet",
+        "Indiska Oceanen",
+        "Medelhavet"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilken flod är längst i världen?",
+      "Answers": [
+        "Nilen",
+        "Amazonas",
+        "Mississippi",
+        "Donau"
+      ],
+      "CorrectAnswers": 0,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilket land har flest invånare i världen?",
+      "Answers": [
+        "Brasilien",
+        "Indien",
+        "Usa",
+        "Kina"
+      ],
+      "CorrectAnswers": 1,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vad är huvudstaden i Australien?",
+      "Answers": [
+        "Canberra",
+        "Perth",
+        "Sydney",
+        "Melbourne"
+      ],
+      "CorrectAnswers": 0,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilket land ligger i både Europa och Asien?",
+      "Answers": [
+        "Algeriet",
+        "Grekland",
+        "Turkiet",
+        "Egypten"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilket land är känt för sina pyramider?",
+      "Answers": [
+        "Jordanien",
+        "Egypten",
+        "Irak",
+        "Saudiarabien"
+      ],
+      "CorrectAnswers": 1,
+      "Category": "Geography"
+    },
+    {
+      "Statement": "Vilken av följande städer är känt som 'Vindarnas stad'?",
+      "Answers": [
+        "New York",
+        "Boston",
+        "Chicago",
+        "San Fransisco"
+      ],
+      "CorrectAnswers": 2,
+      "Category": "Geography"
+    }
+  ]
+}
