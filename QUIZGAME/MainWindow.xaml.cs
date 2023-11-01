@@ -29,6 +29,7 @@ namespace QUIZGAME
         {
             InitializeComponent();
             ReadAllQuestionWithJSON();
+            //hej
         }
 
         private void ToSeeCategory_Click(object sender, RoutedEventArgs e)
