@@ -52,7 +52,7 @@ namespace QUIZGAME
             
             else
             {
-                MessageBox.Show($"Du har nu svarat på alla frågor och fick {score} poäng");
+                TotalScoreText.Text = $"Du fick {score} poäng";
                 MainWindow doneWithQuiz = new MainWindow();
                 doneWithQuiz.Show();
                 this.Close();

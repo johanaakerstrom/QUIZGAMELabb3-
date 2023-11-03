@@ -40,8 +40,9 @@
         <Button x:Name="AnswerD" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="7" Content="{Binding CurrentQuestion.Answers[3]}" Tag="3" Click="AnswerButton_Click" FontSize="12" FontWeight="Bold" Height="50" Background="#FF1EFF00"/>
         <Button x:Name="NextQuestionButton" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="9" Content="Next Question" Click="NextQuestionButton_Click" FontSize="12" FontWeight="Bold"/>
         <TextBlock x:Name="CounterQuestionText" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="1" FontWeight="Bold" Text="{Binding score}" Foreground="#FFFFDE09"/>
-        <TextBlock x:Name="ScoreText"  Grid.Column="1" Grid.Row="1" FontWeight="Bold" Foreground="#FFFFDE09" />
+        <TextBlock x:Name="ScoreText" Grid.Column="1" Grid.Row="1" FontWeight="Bold" Foreground="#FFFFDE09" Text="{Binding Score}"/>
         <Button x:Name="GoBackToCategoryButton" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Content="Back to Main Menu" FontSize="12" FontWeight="Bold" Click="GoBackToCategoryButton_Click"/>
+        <TextBlock x:Name="TotalScoreText" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="4" TextAlignment="Center" Foreground="#FFFFDE09" FontSize="12" Text="{Binding Score}"/>
     </Grid>
     
 </Window>

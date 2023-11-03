@@ -24,12 +24,12 @@ namespace QUIZGAME
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Quiz> quizes {  get; set; } = new List<Quiz>();
+        public List<Quiz> quizes { get; set; } = new List<Quiz>();
         public MainWindow()
         {
             InitializeComponent();
             ReadAllQuestionWithJSON();
-            //hej
+
         }
 
         private void ToSeeCategory_Click(object sender, RoutedEventArgs e)
@@ -48,14 +48,14 @@ namespace QUIZGAME
             Close();
         }
 
-        private void ReadAllQuestionWithJSON()
+        private async Task ReadAllQuestionWithJSON()
         {
             DirectoryInfo QuizFolder = new DirectoryInfo(@".\Quizes");
 
             foreach (FileInfo file in QuizFolder.EnumerateFiles("*.json"))
             {
-                string json = file.OpenText().ReadToEnd();
-                quizes.Add(JsonSerializer.Deserialize<Quiz>(json)); 
+                string json = await File.ReadAllTextAsync(file.FullName);
+                quizes.Add(JsonSerializer.Deserialize<Quiz>(json));
             }
         }
 
