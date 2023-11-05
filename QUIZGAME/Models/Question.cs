@@ -18,7 +18,7 @@ namespace QUIZGAME.Models
 
         public override string ToString()
         {
-            return Statement;
+            return Statement; 
         }
 
     }

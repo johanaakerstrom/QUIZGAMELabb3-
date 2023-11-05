@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,6 +28,7 @@ namespace QUIZGAME
         public string createdQuizName { get; set; }
 
         private int score = 0;
+        private int totalScore = 0;
         public QuizView() 
         {
             InitializeComponent();
@@ -34,7 +36,7 @@ namespace QUIZGAME
 
         }
 
-        private void ShowQuestion()
+        private async Task ShowQuestion()
         {
             if (currentIndex < questions.Count)
             {
@@ -52,7 +54,8 @@ namespace QUIZGAME
             
             else
             {
-                TotalScoreText.Text = $"Du fick {score} poäng";
+                TotalScoreText.Text = $"Du fick {totalScore} poäng";
+                await Task.Delay(20000);
                 MainWindow doneWithQuiz = new MainWindow();
                 doneWithQuiz.Show();
                 this.Close();
@@ -68,6 +71,7 @@ namespace QUIZGAME
             {
                 currentIndex++;
                 score++;
+                totalScore++;
                 ScoreText.Text = $" Socre: {score}";
                 ShowQuestion();
                 
